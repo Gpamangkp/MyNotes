@@ -28,4 +28,4 @@ Wait ! There is a scroll bar also in a side <br />
 More Features to be added : 
 1. Multiple file in single window 
 2. Option of Compiling a cpp code
-3. Option of zooming in and out of text
+3. Option of enlarging text
