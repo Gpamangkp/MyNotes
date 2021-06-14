@@ -78,6 +78,8 @@ class MyNotes:
 		self.__menuBar.add_cascade(label="File",menu=self.__fileMenu)
 
 		# cut option
+
+		self.__editMenu.add_command(label="Cut", command=self.__cut)
 		self.__editMenu.add_command(label="Copy", command=self.__copy)
 		# paste option 
 		self.__editMenu.add_command(label="Paste", command=self.__paste)
@@ -147,5 +149,5 @@ class MyNotes:
 
 
 if __name__ == '__main__':
-	notepad=MyNotes(width=400,height=600)
+	notepad=MyNotes(width=600,height=400)
 	notepad.run()
